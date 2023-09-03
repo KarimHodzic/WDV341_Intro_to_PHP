@@ -6,7 +6,7 @@
     <title>1-2</title>
 </head>
 <body>
-    <h1>Test</h1>
+    <h1>Questions</h1>
 
     <p>Q: What is Version Control Software?</p>
     <p>A: It allows for changes to be saved individualy, allowing you to revert to a previous save in case something stops working after a change.</p>
