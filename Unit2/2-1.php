@@ -1,12 +1,12 @@
 <?php
 
-    $yourName = "Karim Hodzic"
+    $yourName = "Karim Hodzic";
 
-    $number1 = 3.99
+    $number1 = 3.99;
 
-    $number2 = 1.99
+    $number2 = 1.99;
 
-    $total = $number1 + $number2
+    $total = $number1 + $number2;
 
 
 ?>
@@ -29,7 +29,7 @@
     
     <?php 
     
-        echo "<h3>Single Cheese Burger $.</h3>"
+        echo "<h3>Single Cheese Burger $$number1.</h3>"
     
     ?>
 
