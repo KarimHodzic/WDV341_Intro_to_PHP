@@ -2,6 +2,11 @@
 
     $yourName = "Karim Hodzic"
 
+    $number1 = 3.99
+
+    $number2 = 1.99
+
+    $total = $number1 + $number2
 
 
 ?>
@@ -22,6 +27,11 @@
 
     <h2><?php echo $yourName ?></h2>
     
+    <?php 
+    
+        echo "<h3>Single Cheese Burger $.</h3>"
+    
+    ?>
 
 
 </body>
