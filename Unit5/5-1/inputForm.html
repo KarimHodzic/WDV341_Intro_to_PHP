@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>WDV341 Intro to PHP</title>
+
+  <style>
+    body{
+      background-color: bisque;
+    }
+
+    form {
+      width: 600px;
+      margin: auto;
+      background-color: lightblue;
+      padding-left: 20px;
+    }
+
+    form legend {
+      font-size: larger;
+      text-align: center;
+    }
+
+    textarea {
+      resize: none;
+    }
+    .top_container{
+      width: 600px;
+      margin: auto;
+      margin-top: 50px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="top_container">
+    <h1>WDV341 Intro to PHP</h1>
+    <h2>UNIT 5</h2>
+    <p>This is an example input form that will demonstrate how a form connects to a server side process.</p>
+  </div>
+  <form id="form1" name="form1" method="post" action="formHandler.php">
+
+    <legend>Example Form</legend>
+
+    <p>
+      <label for="firstName">First Name:</label>
+      <input type="text" name="firstName" id="firstName" />
+    </p>
+
+    <p>
+      <label for="lastName">Last Name:</label>
+      <input type="text" name="lastName" id="lastName" />
+    </p>
+
+    <p>
+      <label for="schoolName">School Name:</label>
+      <input type="text" name="schoolName" id="schoolName" />
+    </p>
+
+    <p>
+      <label for="academicStanding">Academic Standing: </label>
+      <input type="radio" name="academicStanding" id="senior" value="Senior">
+      <label for="senior">Senior</label>
+      <input type="radio" name="academicStanding" id="junior" value="Junior">
+      <label for="junior">Freshman</label>
+      <input type="radio" name="academicStanding" id="sophomore" value="Sophomore">
+      <label for="sophomore">Sophomore</label>
+      <input type="radio" name="academicStanding" id="freshman" value="Freshman">
+      <label for="freshman">Freshman</label>
+    </p>
+
+    <p>
+      <label for="selectedMajor">Which program are you interested in:</label>
+      <select name="selectedMajor" id="selectedMajor">
+        <option value="default">Pick a program.</option>
+        <option value="CIS">Computer Information Systems</option>
+        <option value="GD">Graphic Design</option>
+        <option value="WD">Web Development</option>
+      </select>
+    </p>
+
+    <p>
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" />
+    </p>
+
+    <p>
+      <label for="contact">Please contact me with program info:</label>
+      <input type="checkbox" name="contact" id="contact" value="Contact me">
+    </p>
+
+    <p>
+      <label for="advisor">I would like an advisor to contact me:</label>
+      <input type="checkbox" name="advisor" id="advisor" value="Advisor Contact">
+    </p>
+
+    <p>
+    <p for="comments">Comments:</p>
+    <textarea name="comments" id="comments" cols="70" rows="10"></textarea>
+    </p>
+
+    <p>
+      <input type="submit" name="button" id="button" value="Submit" />
+      <input type="reset" name="button2" id="button2" value="Reset" />
+    </p>
+
+  </form>
+
+  <p>&nbsp;</p>
+</body>
+
+</html>
